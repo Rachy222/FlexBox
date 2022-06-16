@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: rgb(234, 234, 234);
+}
+
+main {
+  width: 50%; 
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.top-content {
+  background-color: white;
+  padding: 2em;
+  width: 100%;
+  /*background-image: url("bg-intro-desktop.png");
+  background-color: rgb(153, 86, 86);*/
+
+}
+
+.top-content h3 {
+  color: rgb(7, 172, 228);
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.top-content .p-top {
+  color: rgb(204, 218, 11);
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.bottom-content{
+    display: flex;
+    width: 100%;
+}
+
+.bottom-content .top-bottom{
+    background-color:rgb(7, 172, 228);
+    color: white;
+    padding: 2em;
+    width: 50%;
+
+}
+
+.bottom-content .second-bottom{
+    background-color:rgb(53, 161, 197);
+    color: white;
+    padding: 2em;
+    width: 50%;
+
+}
